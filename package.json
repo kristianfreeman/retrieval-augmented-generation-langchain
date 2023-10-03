@@ -1,0 +1,16 @@
+{
+  "name": "rag-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.14",
+    "langchain": "^0.0.157"
+  }
+}
