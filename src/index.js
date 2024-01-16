@@ -1,5 +1,4 @@
-import { CloudflareWorkersAIEmbeddings } from "langchain/embeddings/cloudflare_workersai"
-import { CloudflareVectorizeStore } from "langchain/vectorstores/cloudflare_vectorize"
+import { CloudflareVectorizeStore, CloudflareWorkersAIEmbeddings } from "@langchain/cloudflare"
 import { RetrievalQAChain } from "langchain/chains"
 import { OpenAI } from "langchain/llms/openai"
 
